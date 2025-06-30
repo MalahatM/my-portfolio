@@ -1,0 +1,59 @@
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+}
+
+.image-wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.profile-image {
+  width: 90%;
+  border-radius: 35%;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+}
+
+.text-wrapper {
+  flex: 2;
+  text-align: left;
+}
+
+.button-group button {
+  margin: 10px 10px 0 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  background-color: #3f51b5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+  background-color: #303f9f;
+}
+.home-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  gap: 120px;
+}
+@keyframes shake {
+  0% { transform: translateY(0); }
+  25% { transform: translateY(-8px); }
+  50% { transform: translateY(8px); }
+  75% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
+
+.shake {
+  animation: shake 0.4s;
+}
+
