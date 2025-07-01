@@ -56,11 +56,14 @@
 .shake {
   animation: shake 0.4s;
 }
+
 .contact-section {
-  margin-top: 100px;
-  padding: 40px 0;
-  border-top: 1px solid #ccc;
+  margin-top: 200px;
+  padding: 60px;
+  text-align: left;
+ 
 }
+
 
 .contact-section a {
   color: #66b2ff;
