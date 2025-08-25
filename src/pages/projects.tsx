@@ -63,6 +63,16 @@ function Projects() {
           </a>
         </div>
       </div>
+
+	<div className="project-card">
+        <h3>Project 5: UX project</h3>
+        <p>The fifth project based on Ux/UI</p>
+        <div className="buttons">
+          <a href="https://www.figma.com/proto/3SXbJNBZvq0pHYyn8G1ffb/cyber-petz?node-id=189-2043&starting-point-node-id=189%3A2043" target="_blank" rel="noreferrer" className="view-button">
+            View Project
+          </a>
+        </div>
+      </div>
 	  //TODO
     </div>
   );
