@@ -1,8 +1,11 @@
+
 .home-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 40px;
+  gap: 120px;
+  flex-wrap: wrap; 
 }
 
 .image-wrapper {
@@ -11,18 +14,23 @@
   justify-content: flex-end;
 }
 
+
 .profile-image {
   width: 90%;
   border-radius: 35%;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
   object-fit: cover;
+  transition: width 0.3s ease;
 }
+
 
 .text-wrapper {
   flex: 2;
   text-align: left;
+  min-width: 250px;
 }
 
+/* دکمه‌ها */
 .button-group button {
   margin: 10px 10px 0 0;
   padding: 10px 20px;
@@ -38,13 +46,8 @@
 .button-group button:hover {
   background-color: #303f9f;
 }
-.home-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 40px;
-  gap: 120px;
-}
+
+
 @keyframes shake {
   0% { transform: translateY(0); }
   25% { transform: translateY(-8px); }
@@ -57,13 +60,12 @@
   animation: shake 0.4s;
 }
 
+
 .contact-section {
   margin-top: 200px;
   padding: 60px;
   text-align: left;
- 
 }
-
 
 .contact-section a {
   color: #66b2ff;
@@ -73,6 +75,8 @@
 .contact-section a:hover {
   text-decoration: underline;
 }
+
+
 .about-section {
   margin-top: 200px;
   padding: 60px;
@@ -83,9 +87,9 @@
 
 .about-card {
   max-width: 800px;
-  background-color: #c6e3e8; 
-  border-radius: 12px;      
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); 
+  background-color: #c6e3e8;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   padding: 30px;
   line-height: 1.6;
 }
@@ -105,4 +109,31 @@
 
 .about-card strong {
   color: #222;
+}
+
+
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column; 
+    gap: 40px;
+    padding: 20px;
+  }
+
+  .image-wrapper {
+    justify-content: center;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .text-wrapper {
+    text-align: center;
+  }
+
+  .button-group button {
+    width: 80%; 
+    margin: 10px 0;
+  }
 }
