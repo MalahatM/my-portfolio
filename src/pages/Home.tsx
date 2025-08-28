@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import profileImage from "./assets/IMG_9341.jpg";
+import profileImage from "../assets/IMG_9341.jpg";
 import "./Home.css";
 
 function Home() {
