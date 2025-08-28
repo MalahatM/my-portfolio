@@ -1,9 +1,10 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import profileImage from "./assets/IMG_9341.jpg";
 import "./Home.css";
 
 function Home() {
-  const [shakingButton, setShakingButton] = useState<number | null>(null);
+  const [shakingButton, setShakingButton] = useState<number>(-1);
   const navigate = useNavigate();
 
   const buttons = ["Resume", "Projects", "About", "Contact"];
@@ -27,7 +28,7 @@ function Home() {
       }
     }
 
-    setTimeout(() => setShakingButton(null), 400);
+    setTimeout(() => setShakingButton(-1), 400);
   };
 
   return (
@@ -35,7 +36,7 @@ function Home() {
       <div className="home-container">
         <div className="image-wrapper">
           <img
-            src="/IMG_9341.JPG"
+            src={profileImage}
             alt="Profile"
             className="profile-image"
           />
