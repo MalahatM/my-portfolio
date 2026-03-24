@@ -67,7 +67,13 @@ const projects = [
     description: "Built my eighth project with React: an online platform for summer toys.",
     github: "https://github.com/MalahatM/funzi-webbshop.git",
     view: "https://malahatm.github.io/funzi-webbshop/"
-  }
+  },
+ {
+  title: "Project 10: Jewelry Boutique",
+  description: "A full-stack jewelry boutique application that allows customers to shop online and book in-store appointments, while giving the admin the ability to add, remove, and update products and prices. Built with React, TypeScript, Express, and Node.js.",
+  github: "https://github.com/MalahatM/persiangold.git",
+  view: "https://persiangold-1fdf0.web.app/booking"
+}
 ];
 
 function Projects() {
