@@ -66,21 +66,14 @@ function Home() {
         <div className="about-card">
           <h2>About Me</h2>
           <p>
-            Hi, I’m <strong>Malahat Mortezavi</strong>, a junior front-end developer passionate
-            about creating clean, responsive, and user-friendly websites. I
-            enjoy turning creative ideas into interactive experiences using
-            HTML, CSS, and JavaScript, and I’m constantly exploring new
-            technologies to expand my skills.
+            Hi, I’m <strong>Malahat Mortezavi</strong>, a junior front-end developer currently studying <strong>Software Development with a focus on .Net</strong>
+            about creating clean, responsive, and user-friendly websites. I enjoy turning ideas into responsive, user-friendly websites and understanding how the systems behind them work.
           </p>
           <p>
-            My expertise includes HTML5, CSS3, JavaScript (ES6+), React, and
-            building responsive layouts with attention to detail. I’m also
-            familiar with Git and collaborative workflows, ensuring smooth
-            teamwork on projects.
+            My experience includes HTML, CSS, JavaScript, React, and TypeScript, with a focus on clear layouts and intuitive interfaces. Through my projects, I’ve also gained practical experience with Node.js and Express, expanding my skills beyond the front end.
           </p>
           <p>
-            Currently, I’m learning TypeScript, Express, and Node.js to broaden
-            my skills toward full-stack development.
+           Through my .NET studies, I’m continuing to develop my software development skills and work toward building complete applications. I’m looking for opportunities to contribute to a team, learn from experienced developers, and bring my attention to detail to real-world projects.
           </p>
         </div>
       </div>
