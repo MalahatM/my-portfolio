@@ -44,7 +44,8 @@ function Home() {
         <div className="text-wrapper">
           <h1>Malahat Mortezavi</h1>
           <p>
-            Junior front-end developer with a strong motivation to learn and
+			Junior front-end developer and .NET software development student,
+             with a strong motivation to learn and
             grow
           </p>
           <div className="button-group">
