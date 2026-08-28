@@ -73,7 +73,9 @@ const projects = [
   description: "A full-stack jewelry boutique application that allows customers to shop online and book in-store appointments, while giving the admin the ability to add, remove, and update products and prices. Built with React, TypeScript, Express, and Node.js.",
   github: "https://github.com/MalahatM/persiangold.git",
   view: "https://persiangold-1fdf0.web.app"
-}
+},
+ 
+
 ];
 
 function Projects() {
