@@ -1,5 +1,6 @@
 function Resume() {
-  const resumeUrl = "https://raw.githubusercontent.com/MalahatM/my-portfolio/main/public/CV%20front%20aug.pdf";
+  //  latest CV
+  const resumeUrl = `${import.meta.env.BASE_URL}resume.pdf?v=2`;
 
   return (
     <div style={{ textAlign: "center", padding: "2rem" }}>
@@ -16,7 +17,8 @@ function Resume() {
           Your browser does not support iframes. You can{" "}
           <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
             open the PDF here
-          </a>.
+          </a>
+          .
         </p>
       </iframe>
 
